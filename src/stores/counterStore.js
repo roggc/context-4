@@ -36,8 +36,8 @@ export const useActions = () => {
 };
 
 export const useValues = () => {
-  const { count } = useStateContext();
-  return { count };
+  const state = useStateContext();
+  return state;
 };
 
 export default ContextProvider;
