@@ -1,7 +1,5 @@
 import { useEffect } from "react";
-import todosStore from "../stores/todosStore";
-
-const { useValues } = todosStore;
+import { useValues } from "../stores/todosStore";
 
 const Todos = () => {
   const { todos } = useValues();

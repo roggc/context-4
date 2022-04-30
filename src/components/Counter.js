@@ -1,7 +1,5 @@
 import { useEffect } from "react";
-import counterStore from "../stores/counterStore";
-
-const { useActions, useValues } = counterStore;
+import {useValues,useActions} from "../stores/counterStore";
 
 const Counter = () => {
   const { increment, decrement, equal } = useActions();
